@@ -1,6 +1,6 @@
 object Form3: TForm3
-  Left = 56
-  Top = 147
+  Left = 268
+  Top = 135
   Width = 1043
   Height = 548
   Caption = 'Form3'
@@ -873,21 +873,5 @@ object Form3: TForm3
       Height = 21
       TabOrder = 2
     end
-  end
-  object ADOTable1: TADOTable
-    Connection = ADOConnection1
-    TableName = 'Tb_stok'
-    Left = 152
-    Top = 280
-  end
-  object ADOConnection1: TADOConnection
-    Connected = True
-    ConnectionString = 
-      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Semster 6\Pr. Vi' +
-      'sualisasi\project\Db_CoffeShop.mdb;Persist Security Info=False'
-    Mode = cmShareDenyNone
-    Provider = 'Microsoft.Jet.OLEDB.4.0'
-    Left = 152
-    Top = 240
   end
 end

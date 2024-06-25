@@ -73,7 +73,7 @@ end;
 
 procedure TForm5.Button4Click(Sender: TObject);
 begin
-if MessageDlg('Apakah Anda Yakin Akan Menghapus Data Ini',mtConfirmation,[mbYes,mbNo],0)=mryes then ADOQuery1.Delete;
+if MessageDlg('Apakah Anda Yakin Akan Menghapus Data Ini',mtConfirmation,[mbYes,mbNo],0)=mryes then ADOTable1.Delete;
 end;
 
 procedure TForm5.Button5Click(Sender: TObject);

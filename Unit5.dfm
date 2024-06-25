@@ -1167,25 +1167,26 @@ object Form5: TForm5
   object ADOConnection1: TADOConnection
     Connected = True
     ConnectionString = 
-      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Semster 6\Pr. Vi' +
-      'sualisasi\project\Db_CoffeShop.mdb;Persist Security Info=False'
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Semster 6\Pr. Pe' +
+      'mrograman Visual\project\Kasir-Coffe-Shop-Delphi7\Db_CoffeShop.m' +
+      'db;Persist Security Info=False'
     LoginPrompt = False
     Mode = cmShareDenyNone
     Provider = 'Microsoft.Jet.OLEDB.4.0'
-    Left = 16
-    Top = 272
-  end
-  object DataSource1: TDataSource
-    DataSet = ADOTable1
-    Left = 96
-    Top = 272
+    Left = 64
+    Top = 184
   end
   object ADOTable1: TADOTable
     Active = True
     Connection = ADOConnection1
     CursorType = ctStatic
     TableName = 'Tb_karyawan'
-    Left = 56
-    Top = 272
+    Left = 64
+    Top = 232
+  end
+  object DataSource1: TDataSource
+    DataSet = ADOTable1
+    Left = 64
+    Top = 280
   end
 end

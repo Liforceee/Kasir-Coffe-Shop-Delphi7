@@ -10,8 +10,6 @@ type
   TForm4 = class(TForm)
     Image1: TImage;
     DBGrid1: TDBGrid;
-    ADOConnection1: TADOConnection;
-    DataSource1: TDataSource;
     Edit1: TEdit;
     Edit2: TEdit;
     Edit3: TEdit;
@@ -20,7 +18,9 @@ type
     Button3: TButton;
     Button4: TButton;
     Button5: TButton;
+    ADOConnection1: TADOConnection;
     ADOTable1: TADOTable;
+    DataSource1: TDataSource;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);

@@ -30,8 +30,6 @@ type
     Button2: TButton;
     Edit3: TEdit;
     Edit4: TEdit;
-    ADOTable1: TADOTable;
-    ADOConnection1: TADOConnection;
     procedure Button4Click(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
